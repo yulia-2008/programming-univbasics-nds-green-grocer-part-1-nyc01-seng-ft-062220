@@ -18,7 +18,7 @@ def consolidate_cart(cart)
      hash[:count]=1
    end
    
-   receipt >>hash
+   receipt << hash
 end   
    
  #== find_item_by_name_in_collection(name, collection) 
