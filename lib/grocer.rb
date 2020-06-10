@@ -21,8 +21,7 @@ def consolidate_cart(cart)
    receipt << hash
 end   
    
- #== find_item_by_name_in_collection(name, collection) 
-  # REMEMBER: This returns a new Array of hashes that represents the cart. 
+ 
 end
 
 
