@@ -11,7 +11,7 @@ end
 def consolidate_cart(cart)
  receipt = [] 
 
- cart each do |hash|
+ cart.each do |hash|
    if hash[:count]
      hash[:count]+=1
    else 
