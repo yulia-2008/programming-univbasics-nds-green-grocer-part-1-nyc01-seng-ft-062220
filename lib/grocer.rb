@@ -11,14 +11,16 @@ end
 def consolidate_cart(cart)
  receipt = [] 
  cart each do |hash|
-   if hash[:count] 
-     == find_item_by_name_in_collection(name, collection) 
+   
+   if hash[:count]
+     hash[:count]+=1
+     
    else hash[:count]=1
    receipt == 
    
    
 
- 
+ == find_item_by_name_in_collection(name, collection) 
   # REMEMBER: This returns a new Array of hashes that represents the cart. 
 end
 
