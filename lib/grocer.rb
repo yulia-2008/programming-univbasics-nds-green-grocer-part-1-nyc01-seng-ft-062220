@@ -3,7 +3,7 @@ def find_item_by_name_in_collection(name, collection)
     if hash[:item]==name
       return hash
     else 
-      return nill
+      return nil
     end
   end
 
